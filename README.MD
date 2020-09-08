@@ -4,7 +4,7 @@
 <hr width="150px">
 
 |[Solve Me First](https://github.com/DeWill404/HackerRank/Algorithms/Solve%20Me%20First.py)|||
-|-|-|-|
+|-|-|-| 
 
 <br>
 
