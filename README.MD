@@ -24,7 +24,7 @@
 
 [**Project Eular**](https://github.com/DeWill404/HackerRank/Project%20Eular)
 
-|[Problem 1](https://github.com/DeWill404/HackerRank/Algorithms/Problem001.py)|[Problem 2](https://github.com/DeWill404/HackerRank/Algorithms/Problem002.py)|
-|-|-|
+|[Problem 1](https://github.com/DeWill404/HackerRank/Algorithms/Problem001.py)|[Problem 2](https://github.com/DeWill404/HackerRank/Algorithms/Problem002.py)|[Problem 3](https://github.com/DeWill404/HackerRank/Algorithms/Problem003.py)|
+|-|-|-|
 
 </center>
