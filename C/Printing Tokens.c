@@ -5,17 +5,17 @@
 
 int main() {
 
-  char *s;
-  s = malloc(1024 * sizeof(char));
-  scanf("%[^\n]", s);
-  s = realloc(s, strlen(s) + 1);
+	char *s;
+	s = malloc(1024 * sizeof(char));
+	scanf("%[^\n]", s);
+	s = realloc(s, strlen(s) + 1);
 
-  char *token = strtok(s, " ");
+	char *token = strtok(s, " ");
 
-  while (token) {
-      printf("%s\n", token);
-      token = strtok(NULL, " ");
-  }
+	while (token) {
+			printf("%s\n", token);
+			token = strtok(NULL, " ");
+	}
 
-  return 0;
+	return 0;
 }
