@@ -7,5 +7,5 @@ line = int(input())
 
 for _ in range(line):
 	string = input()
-	for matches in re.findall(pattern, string):
+	for matches in pattern.findall(string):
 		print(matches[0].strip()+","+matches[1].strip())

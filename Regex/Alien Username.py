@@ -6,7 +6,7 @@ pattern = re.compile(r'^[_.]\d+[a-zA-Z]*_?$')
 
 for _ in range(int(input())):
     name = input()
-    if re.search(pattern, name):
+    if pattern.search(name):
         print("VALID")
     else:
         print("INVALID")

@@ -8,6 +8,6 @@ line = int(input())
 
 for _ in range(line):
 	string = input()
-	tagList += list(re.findall(pattern, string))
+	tagList += list(pattern.findall(string))
 
 print(";".join(sorted(filter(None,set(tagList)))))

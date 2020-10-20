@@ -7,5 +7,5 @@ line = int(input())
 
 for _ in range(line):
 	string = input()
-	if (re.match(pattern, string)):
+	if (pattern.match(string)):
 		print(string)
