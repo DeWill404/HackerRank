@@ -7,9 +7,9 @@ ipv6_pattern = re.compile(r'^([\da-f]{1,4}:){7}[\da-f]{1,4}$')
 
 for _ in range(int(input())):
 	line = input()
-	if ipv6_pattern.match(line):
+	if re.match(ipv6_pattern, line):
 		print("IPv6")
-	elif ipv4_pattern.match(line):
+	elif re.match(ipv4_pattern, line):
 		print("IPv4")
 	else:
 		print("Neither")
